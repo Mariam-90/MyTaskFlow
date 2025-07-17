@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MyTskFlow - Login</title>
+
+    <link rel="stylesheet"   href="style.css"/>
+    <!--Basic font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="app-title"> Welcome To My Task Flow</h1>
+        <button id="language-toggle">עברית</button>
+
+    </header>
+    <main>
+        <section class="login-section">
+            <h2 id="login-title">Login</h2>
+            <form id="login-form">
+                <label for="username" id="username-label">Username:</label>
+                <input type="text" id="username" name="username" required/>
+
+                <label for="password" id="password-label">password</label>
+                <input type="password" id="password" name="password" required/>
+
+                <button type="submit" id="login-button">Login</button>
+              
+            </form>
+          </section>  
+    </main>
+<footer>
+    <p id="footer-text">Don't have an account? <a href="£">Sign up</a></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
