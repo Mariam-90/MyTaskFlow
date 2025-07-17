@@ -1,0 +1,100 @@
+/* סגנון כללי */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4f8;
+  color: #333;
+  transition: direction 0.3s;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4a90e2;
+  color: white;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+#language-toggle {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ffffff;
+  color: #4a90e2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* תמיכה בכיוון ימין לשמאל */
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+body[dir="rtl"] header,
+body[dir="rtl"] footer {
+  text-align: right;
+}
